@@ -1,0 +1,20 @@
+main{
+    display: inline;
+}
+
+#imgAgradecimento{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#agradecimento{
+    padding-top: 24vh;
+    font-size: 37px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+#titulo{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+}

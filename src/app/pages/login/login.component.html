@@ -1,0 +1,15 @@
+<main>
+    <form class="pure-form pure-form-aligned">
+        <p>Login</p>
+        <div class="pure-control-group">
+            <input type="email" id="email" placeholder="Email" name="email" [(ngModel)]="this.Login.Email">
+        </div>
+        <div class="pure-control-group">
+            <input type="password" id="senha" placeholder="Senha" name="senha" [(ngModel)]="this.Login.Senha">
+        </div>
+        <div class="pure-controls">
+            <button type="button" (click)="enviar()" class="pure-button pure-button-primary">Entrar</button>
+            <button type="reset" class="pure-button dinamico">Limpar</button>
+        </div>
+    </form>
+</main>

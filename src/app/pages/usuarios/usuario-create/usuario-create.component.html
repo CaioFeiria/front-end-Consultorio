@@ -1,0 +1,30 @@
+<app-header></app-header>
+<main>
+    <form class="pure-form pure-form-aligned">
+        <fieldset>
+            <legend>Novo Usuario</legend>
+            <div class="pure-control-group">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" [(ngModel)]="this.Usuario.Nome">
+            </div>
+            <div class="pure-control-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" [(ngModel)]="this.Usuario.Email">
+            </div>
+            <div class="pure-control-group">
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="senha" [(ngModel)]="this.Usuario.Senha">
+            </div>
+            <div class="pure-control-group">
+                <label for="csenha">Confirmar Senha:</label>
+                <input type="password" id="csenha" name="csenha" [(ngModel)]="this.CSenha">
+            </div>
+            <div class="pure-controls">
+                <button type="button" (click)="enviar()" class="pure-button pure-button-primary">Enviar</button>
+                <button type="reset" class="pure-button dinamico">Limpar</button>
+                <button type="button" routerLink="/usuarios" class="pure-button ">Voltar</button>
+            </div>
+        </fieldset>
+    </form>
+</main>
+<app-footer></app-footer>

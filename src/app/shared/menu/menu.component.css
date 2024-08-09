@@ -1,0 +1,14 @@
+.pure-menu{
+    display: flex;
+    justify-content: center;
+    padding: 5px 0 5px 0;
+    margin-bottom: 34px;
+    background-color: rgb(243, 243, 243);
+}
+
+#pointer{
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 12px;
+}

@@ -1,0 +1,16 @@
+<nav class="pure-menu pure-menu-horizontal">
+    <div>
+        <ul class="pure-menu-list">
+            <li class="pure-menu-item"><a routerLink="/home" class="pure-menu-link">Home</a></li>
+            <li class="pure-menu-item"><a routerLink="/medicamentos" class="pure-menu-link">Medicamentos</a></li>
+            <li class="pure-menu-item"><a routerLink="/pacientes" class="pure-menu-link">Pacientes</a></li>
+            <li class="pure-menu-item"><a routerLink="/usuarios" class="pure-menu-link">Usuarios</a></li>
+        </ul>
+    </div>
+    <div>
+        <a id="pointer" (click)="this.logout()">
+            <mat-icon>exit_to_app</mat-icon>
+        </a>
+    </div>
+</nav>
+
